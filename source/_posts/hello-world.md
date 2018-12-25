@@ -2,39 +2,29 @@
 title:  MAC hexo在github上的搭建和next定制
 abbrlink: 16107
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
-## Quick Start
 
-### Create a new post
+### 创建命令
 
 ``` bash
-$ hexo new "My New Post"
+$ hexo new "My New Post" //文章
+$ hexo new page “测试”   //页面
 ```
 
-More info: [Writing](https://hexo.io/docs/writing.html)
-
-### Run server
+### HEXO 运行命令
 
 ``` bash
-$ hexo server
+$ hexo clean  //清理
+$ hexo generate  //编译
+$ hexo server   //服务器
+$ hexo deploy   //发布
 ```
 
-More info: [Server](https://hexo.io/docs/server.html)
+---
+## 参考的文章
 
-### Generate static files
-
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
+[hexo 官网](https://hexo.io/docs/deployment.html)
+[next基础配置]（https://www.jianshu.com/p/1f8107a8778c）
+[基于Hexo 深度定制](https://yangbingdong.com/2017/build-blog-hexo-advanced/)
 
 
-More info: [Deployment](https://hexo.io/docs/deployment.html)
